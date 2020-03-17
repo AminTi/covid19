@@ -52,7 +52,7 @@ body {
 .subWrapper h1 {
   color: white;
   font-size: 40px;
-  padding: 20px;
+  padding-bottom: 10px;
 }
 
 .subWrapper #countries {
@@ -72,9 +72,11 @@ body {
           flex-direction: column;
   background: black;
   opacity: 50%;
-  min-width: 400px;
+  min-width: 300px;
   min-height: 300px;
+  width: 300px;
   margin-bottom: 10px;
+  padding: 0px 30px;
 }
 
 .ulDiv {
