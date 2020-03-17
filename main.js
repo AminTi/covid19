@@ -22,8 +22,8 @@ function updateUi(country, data) {
 
     let list = document.querySelector('.list')
     list.innerHTML = `
-    <li> Confiremd: ${data.confirmed.value}</li>
-    <li> Recoverd: ${data.recovered.value}</li>
+    <li> Confirmed: ${data.confirmed.value}</li>
+    <li> Recovered: ${data.recovered.value}</li>
     <li> Deaths: ${data.deaths.value}</li>
     <li> Last update: ${data.lastUpdate}</li>
    `
