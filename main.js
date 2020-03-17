@@ -25,7 +25,7 @@ function updateUi(country, data) {
     <li> Confiremd: ${data.confirmed.value}</li>
     <li> Recoverd: ${data.recovered.value}</li>
     <li> Deaths: ${data.deaths.value}</li>
-    <li> lastUpdate: ${data.lastUpdate}</li>
+    <li> Last update: ${data.lastUpdate}</li>
    `
 
 }
