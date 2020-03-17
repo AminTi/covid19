@@ -36,9 +36,9 @@ h1 {
     width: 60%;
     background: white;
     outline: none;
-    width: 200px;
-    height: 40px;
+    min-width: 200px;
     font-size: 15px;
+    min-height: 40px;
 }
 
 .data {
@@ -47,18 +47,20 @@ h1 {
     align-items: center;
     flex-direction: column;
     background: black;
-    width: 300px;
-    height: 500px;
+    min-width: 300px;
+    min-height: 500px;
     margin: 20%;
     opacity: 50%;
-
-
-
 }
 
 .list {
     list-style: none;
     margin: 10%;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 
     li {
@@ -68,6 +70,7 @@ h1 {
         font-family: sans-serif;
         width: 100%;
         margin: 10px;
+        word-spacing: 2px;
 
 
     }
