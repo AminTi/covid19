@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("coronavirus-4914026_1280.jpg");
+  opacity: 9;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+}
+
+#countries {
+  z-index: 100;
+  width: 60%;
+  background: white;
+  outline: none;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: black;
+  width: 400px;
+  height: 500px;
+  margin: 20%;
+  opacity: 50%;
+}
+
+.list {
+  list-style: none;
+  margin: 20%;
+}
+
+.list li {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 10px;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  z-index: 100;
+  font-size: 80px;
+}
+/*# sourceMappingURL=style.css.map */
