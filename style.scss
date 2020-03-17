@@ -7,7 +7,7 @@
 body {
     object-fit: cover;
     overflow: hidden;
-    background-image: url(coronavirus-4914026_1280.jpg);
+    background-image: url("coronavirus-4914026_1280.jpg");
 }
 
 .wrapper {
@@ -39,7 +39,7 @@ body {
     #countries {
         background: white;
         min-width: 50%;
-        font-size: 30px;
+        font-size: 25px;
         outline: none;
     }
 }
